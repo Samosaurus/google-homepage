@@ -1,0 +1,260 @@
+/*general positioning and spacing*/
+
+body {
+    background: #fff;
+    color: #222;
+    font-size: small;
+    font-family: arial, sans-serif;
+    text-align: center;
+    line-height: 1;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: block; 
+    
+}
+
+
+.logo-wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    text-align: -webkit-center;
+}
+
+
+/*header styling*/
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 34px;
+    margin-top: 15px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.navbar-left-item {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 15px;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-right-item {
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: flex-end;
+    align-items: center;
+    margin-left: auto;
+    
+}
+
+a.rightnavlinks, .navicons {
+    padding-right: 15px;
+}
+
+.navicons {
+    height: auto;
+    width: 32px; 
+}
+
+.logo-account {
+    border-radius: 25px;
+}
+
+.logo-account, .logo-apps {
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+
+/*searchbar styling*/
+
+#logo {
+    padding-top: 109px;
+    width: 272px;
+    height: 92px; 
+}
+
+input{ 
+    border:none;
+}
+
+.form-search {
+    display: flex;
+    padding: 18px;
+    align-items: center;
+}
+
+#text-bar {
+    border: 1px solid #dfe1e5;
+    display: flex;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    min-width: 482px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search-icon {
+    height:20px;
+    width: 20px;
+    margin-left: 16px;
+    margin-top:12px;
+    border: none;
+    background-image: url(/assets/search_logo.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-color: #fff;  
+}
+
+#voice {
+    height:20px;
+    width: 20px;
+    margin-right: 16px;
+    margin-top:12px;
+    border: none;
+    background-image: url(/assets/voice.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;  
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+}
+
+.submit-button {
+    margin: 11px 4px 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.submit-button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.charity-link {    
+    margin-bottom: 32px;
+}
+
+.bluelinks, .charity-img {
+    vertical-align: middle;
+}
+
+/*footer styling*/
+
+footer {
+    background-color: rgb(242, 242, 242);
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    color: #5f6368;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    width: 100%;
+    min-width: 450px;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+}
+
+.country {
+    font-size: 15px;
+    text-align: left;
+    margin: 1em 30px;
+}
+
+.footerlinks {
+    border-top: 1px solid rgb(228, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+}
+
+
+.leftside .rightside {
+    font-size: 13px;
+    margin-top: 1em;
+}
+
+
+
+.rightside {
+    margin-right: 30px;
+}
+
+/* link and text styling */ 
+
+.foot-links-left, .foot-links-right {
+    font-size: 1.1em;
+    color: #5f6368;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.canada {
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+a {
+    color:#1a0dab;
+    text-decoration: none;
+}
+
+#footer a {
+    color: #5f6368;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+a.navlinks, a.rightnavlinks {
+    color: #000;
+    font-size: 13px;
+    opacity: 0.75;
+    
+}
+
+a:visited {
+    color: #000;
+}
